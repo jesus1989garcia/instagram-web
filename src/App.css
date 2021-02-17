@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.main {
+  height: 100vh;
+  width: 100vw;
+  background-color: burlywood;
+}
+.main-container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  padding: auto 10%;
+  margin-top: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left-cont {
+  background-color: rgb(255, 255, 255);
+  height: 90%;
+  width: 30%;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-cont .phone-img {
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.right-cont {
+  background-color: rgb(255, 255, 255);
+  height: 90%;
+  width: 30%;
+}
+
+
+.right-comp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form-div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: rgb(200, 200, 199) solid 1px;
+  
+}
+
+.form-div * {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form * {
+  margin: 10px auto;
+  width: 220px;
+  height: 36px;
+  border-radius: 2px;
+  border-color: rgb(250, 250, 249);
+}
+ 
+
+
+.form-div  button {
+  display: block;
+  color: rgb(248, 248, 248);
+  background-color: rgb(76, 184, 246);
+  border: 0px;
+  line-height: 36px
+  
+}
+
+.alt-login  {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.or-div {
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+}
+.or-div hr {
+  width: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signup {
+  display: flex;
+  align-items:  center;
+  justify-content: center;
+  flex-direction: row;
+  border: solid rgb(200, 200, 199) 1px;
+  margin-top: 20px;
+}
+
+.get-app {
+  display: flex;
+  justify-content: center;
+}
+
+.insta {
+  height: 10%;
+  width: 40%;
+  align-self: center
+}
+
+.fb-logo {
+  height: 20px;
+}
+
+.facebook-div {
+  display: flex;
+  flex-direction: row;
+  color: rgb(6, 108, 243);
+}
+.get-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.getapp {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.getapp img {
+  height: 30px;
+}
+
+.footer {
+  display: flex;
+  text-align: center;
+  margin: 70px 20%;
 }

@@ -1,0 +1,18 @@
+export default ["About",
+"Blog",
+"Jobs",
+"Help",
+"API",
+"Privacy",
+"Terms",
+"Top Accounts",
+"Hashtags",
+"Locations",
+"Beauty",
+"Dance & Performance",
+"Fitness",
+"Food & Drink",
+"Home & Garden",
+"Music",
+"Visual Arts"]
+
